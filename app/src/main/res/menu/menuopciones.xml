@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Venta"
+        android:title="Venta" />
+    <item
+        android:id="@+id/Compra"
+        android:title="Compra" />
+    <item
+        android:id="@+id/Listadeproductos"
+        android:title="Listadeproductos" />
+    <item
+        android:id="@+id/CerrarSesion"
+        android:title="CerrarSesion" />
+</menu>

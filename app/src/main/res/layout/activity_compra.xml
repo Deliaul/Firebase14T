@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Compra">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et1ingc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingrese Codigo"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/Btnbuscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUSCAR" />
+
+        <TextView
+            android:id="@+id/lblnombreproducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre Producto" />
+
+        <TextView
+            android:id="@+id/lblnombreproducto0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/Prciove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio Venta" />
+
+        <TextView
+            android:id="@+id/Prciove0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/stock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stock" />
+
+        <TextView
+            android:id="@+id/stock0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/ingcan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="INGRESE CANTIDAD"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/topagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total a pagar" />
+
+        <TextView
+            android:id="@+id/topagar0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btnpagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOTAL A PAGAR" />
+
+        <Button
+            android:id="@+id/btnvender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMPRAR
+" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
